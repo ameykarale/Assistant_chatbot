@@ -1,0 +1,150 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hello", "Hi", "Hey", "Greetings", "What's up"],
+            "responses": ["Hi there!", "Hello!", "Hey! How can I help you?", "Hi! What can I do for you today?"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "Goodbye", "See you later", "Farewell"],
+            "responses": ["Goodbye! Take care!", "See you soon!", "Bye! Have a great day!", "Farewell! Until next time."]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thank you", "Thanks", "Much appreciated"],
+            "responses": ["You're welcome!", "No problem!", "Happy to help!", "Glad I could assist!"]
+        },
+        {
+            "tag": "help",
+            "patterns": ["Can you help me?", "I need help", "What can you do?", "Help me out", "Assist me"],
+            "responses": ["Sure! What do you need help with?", "I'm here to assist you.", "Of course! Let me know how I can help."]
+        },
+        {
+            "tag": "jokes",
+            "patterns": ["Tell me a joke", "Joke", "Make me laugh", "Say something funny"],
+            "responses": [
+                "What do you call fake spaghetti? An impasta.",
+                "I told my computer I needed a break, and now it won’t stop sending me KitKat ads.",
+                "Why don't oysters share their pearls? Because they’re shellfish.",
+                "Why did the scarecrow win an award? Because he was outstanding in his field."
+            ]
+        },
+        {
+            "tag": "weather",
+            "patterns": ["What's the weather like?", "Tell me the weather", "How's the weather today?", "Weather update"],
+            "responses": ["I can't check the weather, but you can try asking your local weather app!", "I'm not sure about the weather right now, but it might be a good idea to carry an umbrella just in case!"]
+        },
+        {
+            "tag": "compliment",
+            "patterns": ["You are awesome", "Great job", "Nice work", "You're helpful"],
+            "responses": ["Thank you! That means a lot!", "I'm here to help, and I'm glad I could assist!", "Thanks for the kind words!"]
+        },
+        {
+            "tag": "insult",
+            "patterns": ["You are useless", "I don't like you", "You're dumb", "You're annoying"],
+            "responses": ["I'm sorry if I upset you. How can I make things better?", "I'm here to help. Let me know what I can do for you.", "I'm trying my best to assist!"]
+        },
+        {
+            "tag": "fun_facts",
+            "patterns": ["Tell me a fun fact", "Say something interesting", "Fun fact", "Did you know?"],
+            "responses": [
+                "Did you know honey never spoils? Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still perfectly edible!",
+                "A day on Venus is longer than a year on Venus.",
+                "Octopuses have three hearts, and two of them stop beating when they swim.",
+                "The inventor of the Pringles can is buried in one.",
+                "Bananas are berries, but strawberries aren’t."
+            ]
+        },
+        {
+            "tag": "motivation",
+            "patterns": ["Motivate me", "I need some motivation", "Give me a motivational quote", "Inspire me"],
+            "responses": [
+                "Believe you can and you're halfway there.",
+                "The only way to do great work is to love what you do.",
+                "Don't watch the clock; do what it does. Keep going.",
+                "It always seems impossible until it's done.",
+                "You are capable of amazing things!"
+            ]
+        },
+        {
+            "tag": "food",
+            "patterns": ["I'm hungry","I am hungry", "What should I eat?", "Suggest some food", "Any food recommendations?"],
+            "responses": [
+                "How about some pasta or pizza? Always a good choice!",
+                "Maybe try a healthy salad or a sandwich?",
+                "Feeling adventurous? Why not try a new recipe!",
+                "Craving something sweet? Go for ice cream or cake!"
+            ]
+        },
+        {
+            "tag": "programming_help",
+            "patterns": ["Can you help me with coding?", "I have a programming question", "How do I debug?", "Programming tips?"],
+            "responses": [
+                "Sure! What programming issue are you facing?",
+                "I'm here to help with coding. Let me know your question!",
+                "Have you tried breaking your problem into smaller parts? That often helps!"
+            ]
+        },
+        {
+            "tag": "time",
+            "patterns": ["What's the time?", "Tell me the time", "Current time?", "What time is it?"],
+            "responses": ["I'm not sure of the exact time, but your device can show it!", "Check the clock on your screen; it’s the best source."]
+        },
+        {
+            "tag": "movies",
+            "patterns": ["Recommend a movie", "What movie should I watch?", "Movie suggestions?", "Good films?"],
+            "responses": [
+                "Have you seen *Inception*? It's a mind-bender!",
+                "*The Shawshank Redemption* is always a great pick.",
+                "If you're into action, try *Mad Max: Fury Road*.",
+                "For comedy, watch *Superbad* or *The Grand Budapest Hotel*!"
+            ]
+        },
+        {
+            "tag": "books",
+            "patterns": ["Suggest a book", "What should I read?", "Book recommendations?","Tell me about a book", "Any good books?"],
+            "responses": [
+                "Have you read *To Kill a Mockingbird*? It’s a classic.",
+                "*1984* by George Orwell is thought-provoking.",
+                "For fantasy, try *Harry Potter* or *The Lord of the Rings* series.",
+                "*Atomic Habits* by James Clear is great for self-improvement."
+            ]
+        },
+        {
+            "tag": "hobbies",
+            "patterns": ["Suggest a hobby", "What hobby should I pick?", "Hobby ideas?", "How to spend free time?"],
+            "responses": [
+                "How about trying painting or sketching?",
+                "You could start gardening—it’s relaxing and rewarding!",
+                "Learn a new instrument like the guitar or piano!",
+                "Cooking or baking can be a lot of fun and practical too."
+            ]
+        },
+        {
+            "tag": "travel",
+            "patterns": ["Where should I travel?", "Travel destinations?","travel", "Recommend a vacation spot", "Good places to visit?"],
+            "responses": [
+                "How about Paris for its iconic landmarks?",
+                "If you love beaches, Bali is a great option.",
+                "For nature, try a trip to the Swiss Alps!",
+                "Looking for culture? Kyoto in Japan is amazing!"
+            ]
+        },
+        {
+            "tag": "games",
+            "patterns": ["Suggest a game", "What should I play?", "Good video games?", "Game recommendations?"],
+            "responses": [
+                "If you like RPGs, try *The Witcher 3: Wild Hunt*.",
+                "For something competitive, go for *Valorant* or *CS:GO*.",
+                "Love adventures? Play *The Legend of Zelda: Breath of the Wild*.",
+                "For puzzles, *Portal* and *Portal 2* are classics."
+            ]
+        },
+        {
+            "tag": "introduction",
+            "patterns": ["What is your name?","Do you have any name","who are you","name"],
+            "responses": ["I am Zed-BOT, your friendly chatbot."]
+        }
+    ]
+}
